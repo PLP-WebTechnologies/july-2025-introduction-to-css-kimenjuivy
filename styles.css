@@ -1,10 +1,11 @@
-
+/* General Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box; /* Ensures padding & borders are included in total width/height */
 }
 
+/* Body Styling */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -13,7 +14,7 @@ body {
     padding: 20px;
 }
 
-
+/* Header */
 .site-header {
     background-color: #4a90e2;
     color: white;
@@ -31,6 +32,7 @@ body {
     margin-right: 15px;
 }
 
+/* Intro Section */
 .intro {
     background-color: white;
     padding: 20px;
@@ -38,7 +40,7 @@ body {
     margin-bottom: 20px; 
 }
 
-
+/* Cards Layout */
 .cards {
     display: flex;
     gap: 20px;
@@ -52,7 +54,7 @@ body {
     flex: 1;
 }
 
-
+/* Button */
 .cta-button {
     background-color: #4a90e2;
     color: white;
@@ -66,7 +68,7 @@ body {
     background-color: #357ab7;
 }
 
-
+/* Footer */
 .site-footer {
     background-color: #222;
     color: white;
